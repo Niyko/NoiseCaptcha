@@ -1,0 +1,23 @@
+{
+    "name": "niyko/noise-captcha",
+    "description": "New type of captcha based on noise images to prevent new generation bots.",
+    "type": "library",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Niyko",
+            "email": "hello@niyko.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Niyko\\NoiseCaptcha\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0.0"
+    }
+}
