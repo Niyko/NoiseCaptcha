@@ -2,7 +2,7 @@
     "name": "niyko/noise-captcha",
     "description": "New type of captcha based on noise images to prevent new generation bots.",
     "type": "library",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
     "authors": [
         {
