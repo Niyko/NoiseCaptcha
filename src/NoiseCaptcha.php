@@ -24,7 +24,7 @@ class NoiseCaptcha
 
     private function getRandomCode(){
         $code ='';
-        $chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+        $chars = 'ABCDEFGHJKLMNPQRSTWXYZ23456789';
 
         for($i=0; $i<8; $i++){
             $code .= $chars[rand(0, strlen($chars)-1)];
